@@ -12,21 +12,21 @@
 			containerPortal = CEFE819B2F360B3100F1A81B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CEFE81A22F360B3100F1A81B;
-			remoteInfo = SubTracker;
+			remoteInfo = SmartSubTracker;
 		};
 		CEFE81BD2F360B3200F1A81B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEFE819B2F360B3100F1A81B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CEFE81A22F360B3100F1A81B;
-			remoteInfo = SubTracker;
+			remoteInfo = SmartSubTracker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEFE81A32F360B3100F1A81B /* SubTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFE81B22F360B3200F1A81B /* SubTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFE81BC2F360B3200F1A81B /* SubTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFE81A32F360B3100F1A81B /* SmartSubTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSubTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFE81B22F360B3200F1A81B /* SmartSubTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartSubTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFE81BC2F360B3200F1A81B /* SmartSubTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartSubTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		CEFE81A42F360B3100F1A81B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEFE81A32F360B3100F1A81B /* SubTracker.app */,
-				CEFE81B22F360B3200F1A81B /* SubTrackerTests.xctest */,
-				CEFE81BC2F360B3200F1A81B /* SubTrackerUITests.xctest */,
+				CEFE81A32F360B3100F1A81B /* SmartSubTracker.app */,
+				CEFE81B22F360B3200F1A81B /* SmartSubTrackerTests.xctest */,
+				CEFE81BC2F360B3200F1A81B /* SmartSubTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEFE81A22F360B3100F1A81B /* SubTracker */ = {
+		CEFE81A22F360B3100F1A81B /* SmartSubTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEFE81C62F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SubTracker" */;
+			buildConfigurationList = CEFE81C62F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SmartSubTracker" */;
 			buildPhases = (
 				CEFE819F2F360B3100F1A81B /* Sources */,
 				CEFE81A02F360B3100F1A81B /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				CEFE81A52F360B3100F1A81B /* SubTracker */,
 			);
-			name = SubTracker;
+			name = SmartSubTracker;
 			packageProductDependencies = (
 			);
-			productName = SubTracker;
-			productReference = CEFE81A32F360B3100F1A81B /* SubTracker.app */;
+			productName = SmartSubTracker;
+			productReference = CEFE81A32F360B3100F1A81B /* SmartSubTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEFE81B12F360B3200F1A81B /* SubTrackerTests */ = {
+		CEFE81B12F360B3200F1A81B /* SmartSubTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEFE81C92F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SubTrackerTests" */;
+			buildConfigurationList = CEFE81C92F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SmartSubTrackerTests" */;
 			buildPhases = (
 				CEFE81AE2F360B3200F1A81B /* Sources */,
 				CEFE81AF2F360B3200F1A81B /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				CEFE81B52F360B3200F1A81B /* SubTrackerTests */,
 			);
-			name = SubTrackerTests;
+			name = SmartSubTrackerTests;
 			packageProductDependencies = (
 			);
-			productName = SubTrackerTests;
-			productReference = CEFE81B22F360B3200F1A81B /* SubTrackerTests.xctest */;
+			productName = SmartSubTrackerTests;
+			productReference = CEFE81B22F360B3200F1A81B /* SmartSubTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEFE81BB2F360B3200F1A81B /* SubTrackerUITests */ = {
+		CEFE81BB2F360B3200F1A81B /* SmartSubTrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEFE81CC2F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SubTrackerUITests" */;
+			buildConfigurationList = CEFE81CC2F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SmartSubTrackerUITests" */;
 			buildPhases = (
 				CEFE81B82F360B3200F1A81B /* Sources */,
 				CEFE81B92F360B3200F1A81B /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				CEFE81BF2F360B3200F1A81B /* SubTrackerUITests */,
 			);
-			name = SubTrackerUITests;
+			name = SmartSubTrackerUITests;
 			packageProductDependencies = (
 			);
-			productName = SubTrackerUITests;
-			productReference = CEFE81BC2F360B3200F1A81B /* SubTrackerUITests.xctest */;
+			productName = SmartSubTrackerUITests;
+			productReference = CEFE81BC2F360B3200F1A81B /* SmartSubTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEFE81A22F360B3100F1A81B /* SubTracker */,
-				CEFE81B12F360B3200F1A81B /* SubTrackerTests */,
-				CEFE81BB2F360B3200F1A81B /* SubTrackerUITests */,
+				CEFE81A22F360B3100F1A81B /* SmartSubTracker */,
+				CEFE81B12F360B3200F1A81B /* SmartSubTrackerTests */,
+				CEFE81BB2F360B3200F1A81B /* SmartSubTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		CEFE81B42F360B3200F1A81B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEFE81A22F360B3100F1A81B /* SubTracker */;
+			target = CEFE81A22F360B3100F1A81B /* SmartSubTracker */;
 			targetProxy = CEFE81B32F360B3200F1A81B /* PBXContainerItemProxy */;
 		};
 		CEFE81BE2F360B3200F1A81B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEFE81A22F360B3100F1A81B /* SubTracker */;
+			target = CEFE81A22F360B3100F1A81B /* SmartSubTracker */;
 			targetProxy = CEFE81BD2F360B3200F1A81B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -303,6 +303,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = M9NL4PJ9AL;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -323,6 +324,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -365,6 +367,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = M9NL4PJ9AL;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -379,6 +382,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -390,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SubTracker/SmartSubTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M9NL4PJ9AL;
@@ -398,6 +403,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -413,18 +419,19 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SubTracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SmartSubTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
@@ -434,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SubTracker/SmartSubTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M9NL4PJ9AL;
@@ -442,6 +450,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,18 +466,19 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SubTracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SmartSubTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -484,17 +494,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SubTrackerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SmartSubTrackerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubTracker";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartSubTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartSubTracker";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
@@ -510,17 +521,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SubTrackerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SmartSubTrackerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubTracker";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartSubTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartSubTracker";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -535,17 +547,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SubTrackerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SmartSubTrackerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = SubTracker;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartSubTracker;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
@@ -560,17 +573,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SubTrackerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bitforge-Labs.SmartSubTrackerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = SubTracker;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartSubTracker;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -587,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEFE81C62F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SubTracker" */ = {
+		CEFE81C62F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SmartSubTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEFE81C72F360B3200F1A81B /* Debug */,
@@ -596,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEFE81C92F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SubTrackerTests" */ = {
+		CEFE81C92F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SmartSubTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEFE81CA2F360B3200F1A81B /* Debug */,
@@ -605,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEFE81CC2F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SubTrackerUITests" */ = {
+		CEFE81CC2F360B3200F1A81B /* Build configuration list for PBXNativeTarget "SmartSubTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEFE81CD2F360B3200F1A81B /* Debug */,
