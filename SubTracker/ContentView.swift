@@ -61,12 +61,15 @@ struct ContentView: View {
     @State private var subscriptionToEdit: SubscriptionItem?
 
     var groupedTotals: [String: Double] {
-        var totals: [String: Double] = [:]
+        // Pre-populate core currencies so the array doesn't shrink to 0 unexpectedly during view updates
+        var totals: [String: Double] = ["USD": 0.0, "GBP": 0.0]
         for sub in subscriptions {
             let normalizedCost = sub.billingPeriod == .monthly ? sub.cost : (sub.cost / 12.0)
             totals[sub.currencyCode, default: 0.0] += normalizedCost
         }
-        return totals
+        // Filter out zero-values to keep UI clean, but ensure at least one remains so ForEach doesn't panic on empty collections
+        let filtered = totals.filter { $0.value > 0.0 }
+        return filtered.isEmpty ? ["USD": 0.0] : filtered
     }
 
     var body: some View {
@@ -130,6 +133,8 @@ struct ContentView: View {
     private func deleteSubscriptions(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
+                // Safeguard against index out of bounds during rapid UI updates
+                guard index < subscriptions.count else { continue }
                 let sub = subscriptions[index]
                 NotificationManager.shared.cancelNotification(for: sub)
                 modelContext.delete(sub)
